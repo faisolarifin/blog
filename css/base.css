@@ -34,13 +34,14 @@ div.source-links {
  * sections of docs content.
  */
 
-.nav {
+.bs-sidenav {
     display: flex;
     flex-direction: column;
  }
 
 /* By default it's not affixed in mobile views, so undo that */
 .bs-sidebar.affix {
+    display: none;
     position: static;
 }
 
@@ -113,6 +114,7 @@ div.source-links {
         top: 6.4em;
         max-height: calc(100% - 180px);
         overflow-y: auto;
+        display: block;
     }
     .bs-sidebar.affix-bottom {
         position: absolute; /* Undo the static from mobile first approach */
