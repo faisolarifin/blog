@@ -128,3 +128,7 @@ ol h5>a:hover, ol h5>a:focus {
 h4>a {
     color: #161616;
 }
+
+.navbar-brand img {
+    max-width: 7rem;
+}
