@@ -125,3 +125,6 @@ ol h5>a {
 ol h5>a:hover, ol h5>a:focus {
     color: #5f61e6;
 }
+h4>a {
+    color: #161616;
+}
